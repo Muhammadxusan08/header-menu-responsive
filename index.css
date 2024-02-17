@@ -72,7 +72,7 @@
 .section {
     padding-top: 48px;
     padding-bottom: 48px;
-    background-color: #242A45;
+    background-color: rgba(14, 24, 64, 0.842) ;
     position: fixed;
     top: 0;
     left: 0;
