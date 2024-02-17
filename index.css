@@ -163,10 +163,12 @@
 }
 
 .section-facebook {
-
+display: flex;
 }
 
-.section-twitter {}
+.section-twitter {
+    display: flex;
+}
 
 .section-facebook:hover{
 }
