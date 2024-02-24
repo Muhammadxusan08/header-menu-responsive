@@ -72,7 +72,7 @@
 .section {
     padding-top: 48px;
     padding-bottom: 48px;
-    background-color: rgba(14, 24, 64, 0.842) ;
+    background-color: rgba(14, 24, 64, 0.842);
     position: fixed;
     top: 0;
     left: 0;
@@ -163,15 +163,14 @@
 }
 
 .section-facebook {
-display: flex;
+    display: flex;
 }
 
 .section-twitter {
     display: flex;
 }
 
-.section-facebook:hover{
-}
+.section-facebook:hover {}
 
 
 
@@ -190,4 +189,227 @@ display: flex;
     .header-hamburger {
         display: block;
     }
+}
+
+
+
+
+
+
+
+
+
+
+.section-1 {
+    padding-top: 108px;
+    padding-bottom: 180px;
+}
+
+.section-1-container {
+    max-width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1-card {
+    padding-top: 70px;
+    overflow: hidden;
+}
+
+.section-1-item {
+    max-width: 540px;
+    font-family: Rubik, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.15000000596046448px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.section-1-text {
+    max-width: 540px;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.section-1-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.section-1-buttton-link {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #5267DF;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.section-1-buttton-link-1 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+    color: #242A45;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.section-1-card-2 {}
+
+.section-1-img {
+    max-width: 578px;
+    height: 385px;
+}
+
+
+@media(max-width:1072px) {
+    .section-1 {
+        padding-top: 0px;
+    }
+
+    .section-1-card {
+        padding: 0;
+    }
+
+    .section-1-container {
+        flex-direction: column-reverse;
+    }
+
+    .section-1-img {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1-item {
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-1-text {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-1-buttons{
+        gap: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .section-1-buttton-link{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+    .section-1-buttton-link-1{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+
+}
+
+
+@media(max-width:718px) {
+    .section-1 {
+        padding-top: 0px;
+    }
+
+    .section-1-card {
+        padding: 0;
+    }
+
+    .section-1-container {
+        flex-direction: column-reverse;
+    }
+
+    .section-1-img {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1-item {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-1-text {
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-1-buttons{
+        gap: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .section-1-buttton-link{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+    .section-1-buttton-link-1{
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+
 }
