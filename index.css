@@ -68,7 +68,6 @@
 
 
 
-
 .section {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -202,7 +201,7 @@
 
 .section-1 {
     padding-top: 108px;
-    padding-bottom: 180px;
+    padding-bottom: 90px;
 }
 
 .section-1-container {
@@ -240,6 +239,7 @@
     letter-spacing: 0px;
     text-align: left;
     margin-bottom: 32px;
+    opacity: 0.5;
 }
 
 .section-1-buttons {
@@ -280,6 +280,8 @@
 .section-1-img {
     max-width: 578px;
     height: 385px;
+    border-radius: 8px;
+    background: rgb(232, 234, 246);
 }
 
 
@@ -322,23 +324,24 @@
         margin-right: auto;
     }
 
-    .section-1-buttons{
+    .section-1-buttons {
         gap: 16px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-      
+
     }
-    .section-1-buttton-link{
+
+    .section-1-buttton-link {
         padding-left: 24px;
         padding-right: 24px;
         padding-top: 13px;
         padding-bottom: 10px;
     }
 
-    .section-1-buttton-link-1{
+    .section-1-buttton-link-1 {
         padding-left: 24px;
         padding-right: 24px;
         padding-top: 13px;
@@ -388,23 +391,24 @@
         margin-right: auto;
     }
 
-    .section-1-buttons{
+    .section-1-buttons {
         gap: 14px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-      
+
     }
-    .section-1-buttton-link{
+
+    .section-1-buttton-link {
         padding-left: 17px;
         padding-right: 17px;
         padding-top: 13px;
         padding-bottom: 10px;
     }
 
-    .section-1-buttton-link-1{
+    .section-1-buttton-link-1 {
         padding-left: 17px;
         padding-right: 17px;
         padding-top: 13px;
@@ -412,4 +416,230 @@
     }
 
 
+}
+
+
+
+/* SECTION-2 */
+
+.section-2 {
+    padding-top: 90px;
+    padding-bottom: 119px;
+}
+
+.section-2-container {
+    max-width: 1144px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section-2-card-1 {}
+
+.section-2-item {
+    color: rgb(36, 42, 69);
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.section-2-text {
+    color: rgb(36, 42, 69);
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    opacity: 0.5;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+}
+
+.section-2-ro {
+    display: flex;
+    gap: 90.5px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 73.2px;
+}
+
+.section-2-link {
+    padding: 0 0px 30px;
+    border-bottom: 4px solid transparent;
+    color: #242A45;
+    text-align: center;
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.533px;
+    text-decoration: none;
+    list-style: none;
+    width: 243px;
+    display: block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.section-2-link.active {
+    border-bottom: 4px solid rgb(250, 89, 89);
+}
+
+.section-2-card-logotip {
+    gap: 125px;
+    display: none;
+    position: relative;
+}
+
+.col-decaration {
+    width: 1000px;
+    height: 352px;
+    border-radius: 316.5px;
+    background: rgb(82, 103, 223);
+    left: -360px;
+    position: absolute;
+    top: 80px;
+    left: -604px;
+}
+
+.section-2-img {
+    max-width: 578px;
+    height: 385px;
+    border-radius: 8px;
+    background: rgb(232, 234, 246);
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
+.section-2-card-logotip.active {
+    display: flex;
+}
+
+
+
+.section-2-img-text-item {
+    padding-top: 57px;
+}
+
+.section-2-img-item {
+    color: rgb(36, 42, 69);
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.1px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.section-2-img-text {
+    color: rgb(36, 42, 69);
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.5;
+    margin-bottom: 32px;
+}
+
+
+
+.section-2-img-button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+    background: rgb(82, 103, 223);
+    padding: 13px 28px 13px 28px;
+    background-color: #5267DF;
+}
+
+
+
+@media(max-width:1080px) {
+    .section-2-card-logotip.active {
+        display: contents;
+    }
+
+    .section-2-ro {
+        margin-bottom: 72px;
+    }
+
+    .section-2-img {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-2-img-item {
+        text-align: center;
+    }
+
+    .section-2-img-text {
+        max-width: 311px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-2-img-button {
+        display: none;
+    }
+
+    .section-2-link.active {
+        width: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .section-2-link {
+        width: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 21px;
+    }
+
+    .section-2-ro {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-2-img{
+        max-width: 311px;
+        height: 201px;
+    }
 }
