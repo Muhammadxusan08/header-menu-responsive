@@ -27,3 +27,27 @@ item.addEventListener('click' , function(){
     sectionnh[index].classList.add('active')
 })
 })
+
+
+let question = document.querySelectorAll('.question-item-down-btn')
+let question2 = document.querySelectorAll('.question-item-down-text2')
+let questionItemDownText = document.querySelectorAll('.question-item-down-text')
+
+
+question.forEach(function(item , index){
+    item.addEventListener('click' , function(){
+        question.forEach(function(item , index){
+            question2[index].classList.add("block")
+        })
+        
+        questionItemDownText.forEach(function(item , index){
+            item.classList.remove("color")
+        })
+        
+        question2[index].classList.toggle("block")
+        questionItemDownText[index].classList.toggle("color")
+        item.classList.toggle("rotate")
+        
+        
+    })
+})
