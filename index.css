@@ -935,6 +935,7 @@
     border-bottom: 1px solid rgb(36, 42, 69, .2);
     padding-top: 19px;
     padding-bottom: 19px;
+    cursor: pointer;
 }
 
 
@@ -967,7 +968,7 @@
     background-color: rgb(82, 103, 223);
     border: none;
     color: rgb(255, 255, 255);
-    font-family: Rubik , sans-serif;
+    font-family: Rubik, sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 28px;
@@ -1004,12 +1005,91 @@
     padding-top: 32px;
     padding-bottom: 29px;
 }
-.color{
+
+.color {
     color: #FA5959;
 }
-.rotate{
+
+.rotate {
     /* transform: rotate(180deg); */
 }
-.rotet{
-     transform: rotate(180deg);
+
+.rotet {
+    transform: rotate(180deg);
+}
+
+
+
+
+/* CONTACT US */
+.login {
+    padding-top: 58px;
+    padding-bottom: 74px;
+    background-color: #5267DF;
+}
+
+.login-container {
+    max-width: 482px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.login-text {
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 24px;
+    letter-spacing: 5px;
+}
+
+.login-title {
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.email {
+    display: flex;
+    gap: 16px;
+}
+
+.email-input {
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+}
+
+.email-input::placeholder {
+    outline: none;
+}
+
+.email-btn {
+    padding: 10px 24px;
+    color: rgb(255, 255, 255);
+    font-family: Rubik, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+    background: rgb(250, 89, 89);
+    border: none;
+    cursor: pointer;
 }
