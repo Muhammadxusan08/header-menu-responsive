@@ -54,3 +54,22 @@ question.forEach(function(item , index){
         
     })
 })
+
+
+
+
+
+
+let QuestionBtn = document.querySelectorAll(".question-item")
+let QuestionItemText = document.querySelectorAll(".question-item-text")
+let questioniItemTitle = document.querySelectorAll('.question-item-title')
+let questionItemBtn = document.querySelectorAll('.question-item-btn')
+
+QuestionBtn.forEach(function(item , index){
+    item.addEventListener('click', function(){
+        QuestionItemText[index].classList.toggle('open')
+        questioniItemTitle[index].classList.toggle('color')
+        questionItemBtn[index].classList.toggle('rotet')
+        item.classList.toggle('rotote')
+    })
+})
