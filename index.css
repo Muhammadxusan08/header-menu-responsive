@@ -1066,27 +1066,22 @@
 }
 
 .email-input {
-    max-width: 300px;
-    padding: 10px 24px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    max-width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-right: 113px;
-    font-family: Rubik, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 28px;
-    letter-spacing: 0.25px;
-    border-radius: 5px;
-    box-shadow: 0px 8px 8px -4px rgba(73, 93, 207, 0.2);
+    padding-left: 20px;
     border: none;
     cursor: pointer;
     outline: none;
     overflow: hidden;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
 }
 
 .email-input::placeholder {
     outline: none;
+    max-width: 300px;
 }
 
 .email-btn {
@@ -1104,18 +1099,26 @@
     border: none;
     cursor: pointer;
 }
-@media(max-width:544px){
-.email{
-    display: block;
-    gap: 16px;
-}
-.email-input{
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-}
-.email-btn{
-    width: 100%;
-    margin-top: 16px;
-}
+
+@media(max-width:544px) {
+    .email {
+        display: block;
+        gap: 16px;
+    }
+
+    .email-input {
+        width: 100%;
+        padding-right: 0;
+        max-height: 48px;
+        padding-left: 0;
+    }
+
+    .email-btn {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .input-email-div {
+        width: 100%;
+    }
 }
