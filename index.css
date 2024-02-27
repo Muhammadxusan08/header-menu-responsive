@@ -1002,6 +1002,7 @@
 .open {
     max-height: 200px;
     padding-top: 32px;
+    padding-bottom: 29px;
 }
 .color{
     color: #FA5959;
