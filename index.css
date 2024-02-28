@@ -965,6 +965,7 @@ html{
 .question-list {
     list-style: none;
     margin-bottom: 54px;
+    user-select: none;
 }
 
 .question-item {
