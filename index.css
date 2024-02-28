@@ -6,27 +6,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-body{
-	-webkit-animation: color-change-2x 3s linear infinite alternate both;
-	        animation: color-change-2x 3s linear infinite alternate both;
-}
- @-webkit-keyframes color-change-2x {
-    0% {
-      background: #5267DF;
-    }
-    100% {
-      background: #b22cff;
-    }
-  }
-  @keyframes color-change-2x {
-    0% {
-      background: #fff;
-    }
-    100% {
-      background: #7f85f8;
-    }
-  }
   
   
 
@@ -51,6 +30,14 @@ body{
 .header-img {
     display: flex;
 }
+
+  
+  
+  
+
+
+
+  
 
 .header-list {
     margin-left: auto;
@@ -667,6 +654,7 @@ body{
         display: flex;
         margin-left: auto;
         margin-right: auto;
+        z-index:0 ;
     }
 
     .section-2-img-item {
@@ -1233,11 +1221,14 @@ body{
     align-items: center;
     gap: 10px;
     color: white;
-    transition: all 0.3s;
+    transition: all 0.5s;
+    overflow: hidden;
 }
 .footer-ijtmoiy:hover{
     color: #FA5959;
+    transform: translateY(-15px);
 }
+
 
 .footer-nav-item-link {
     color: rgb(255, 255, 255);
