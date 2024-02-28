@@ -7,6 +7,30 @@ html{
 }
 
 
+body{
+	-webkit-animation: color-change-2x 3s linear infinite alternate both;
+	        animation: color-change-2x 3s linear infinite alternate both;
+}
+ @-webkit-keyframes color-change-2x {
+    0% {
+      background: #5267DF;
+    }
+    100% {
+      background: #b22cff;
+    }
+  }
+  @keyframes color-change-2x {
+    0% {
+      background: #fff;
+    }
+    100% {
+      background: #7f85f8;
+    }
+  }
+  
+  
+
+
 
 .header {
     padding-top: 48px;
@@ -569,6 +593,7 @@ html{
     border-radius: 8px;
     background: rgb(232, 234, 246);
     position: relative;
+    z-index: 111;
 }
 
 .bgsg {}
